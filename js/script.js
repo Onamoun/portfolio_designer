@@ -87,7 +87,7 @@ function changeItem() {
   lightboxText.innerHTML = portfolioItems[itemIndex].querySelector(
     "h4"
   ).innerHTML;
-  lightboxCounter.innerHTML = itemIndex + 1 + " of " + totalPortfolioItem;
+  /*lightboxCounter.innerHTML = itemIndex + 1 + " of " + totalPortfolioItem;*/
 }
 
 function prevItem() {
